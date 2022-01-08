@@ -132,3 +132,4 @@ dmypy.json
 timesheet_project/__pycache__/urls.cpython-39.pyc
 *.pyc
 *.pyc
+college_management/settings2.py
