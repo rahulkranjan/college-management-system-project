@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'college_management.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'USER': 'junttijsolfrjd',
+        'PASSWORD': '100935ea5a02970334407241ad49ef391bd676ab1a9fdd7e788bb377741fff48',
+        'NAME': 'd1je1o5iaqj5ek',
+        'HOST': 'ec2-100-25-72-111.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
